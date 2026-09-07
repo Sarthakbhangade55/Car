@@ -1,0 +1,71 @@
+
+============================================================
+CAR PRICE PREDICTION - PROJECT OBSERVATIONS
+============================================================
+
+Dataset Information
+--------------------
+Total Records       : 299
+Total Features      : 11
+Current Year Used   : 2026
+
+Price Analysis
+--------------
+Average Selling Price : 4.59
+Highest Selling Price : 35.00
+Lowest Selling Price  : 0.10
+
+Average Car Age
+---------------
+12.38 years
+
+Most Common Fuel Type
+---------------------
+Petrol
+
+Most Common Transmission
+------------------------
+Manual
+
+Machine Learning Results
+------------------------
+Best Model : Linear Regression
+
+MAE        : 1.35
+RMSE       : 2.54
+R2 Score   : 0.7502
+
+Most Important Feature
+----------------------
+Brand_800
+
+Models Compared
+---------------
+1. Linear Regression
+2. Random Forest
+3. Gradient Boosting
+
+EDA Visualizations
+------------------
+1. Selling Price Distribution
+2. Selling Price vs Fuel Type
+3. Selling Price vs Car Age
+4. Correlation Heatmap
+5. Model Comparison
+6. Feature Importance
+7. Actual vs Predicted Price
+
+Conclusion
+----------
+The machine learning models were trained to predict the selling
+price of used cars using car age, present price, kilometers driven,
+owner information, brand, fuel type, seller type and transmission.
+
+The best performing model was selected using R2 Score while MAE
+and RMSE were also considered for evaluation.
+
+============================================================
+Author: Sarthak Bhangade
+Oasis Infobyte Data Science Internship
+Task 3 - Car Price Prediction
+============================================================
